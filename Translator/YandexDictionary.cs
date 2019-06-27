@@ -18,7 +18,7 @@ namespace Translator
             {
                 
                 WebRequest request = WebRequest.Create("https://dictionary.yandex.net/api/v1/dicservice.json/lookup?"
-                    + "key=dict.1.1.20190610T153204Z.b209aad893d1f4c7.5505343ecc9aa21462f3bfa8bc5db11229f0626d"
+                    + "key=YOUR KEY"
                     + "&lang=" + lang
                     + "&text=" + s);
 
